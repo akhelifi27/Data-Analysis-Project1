@@ -1,0 +1,84 @@
+The R square is 0.4 which indicates that the model explains well the variance in the dependent variable. The reason why the R squared value is low is due to the variance of Data and its size.
+The adjusted R square is close to the R square value which shows that the model is not overfitting. 
+The VIF indicates that there is no multicollinearity between the independent variables. 
+
+
+
+
+
+1. What is one of the biggest factors that impact the hiring decision?
+1.Education level| 2. Skill score | 3.Personality score | 4. Interview score | 5.Experience level
+ use heatmap 
+2. What does not matter to the hiring decision?
+Age/ Distance from company/ Gender (p value> 0.05)
+ use correlation table 
+4. what is the ideal experience years to be hired? 
+ correlation factor: 0.024780
+
+ the hired employees have a mean of 9 years of experience with a minimum of 6 years according to the provided plot.
+ 
+
+
+
+
+Focusing more on the crucial factors: 
+
+Education Level: 
+
+an increase in the education level increase the chance of being hired by 0.6. 
+
+ What is the ideal education level to be hired? 
+The ideal education level is 4 with 38% people hired of the entire pool have level 4
+However, this can be due to the smaller pool of applicants that have education level 4 or 3. 
+
+Education level has no interaction with other factors. All other interactions are unsignificant due to a low p value score.
+
+
+Skill Level: 
+
+An increase in the skill level leads to an increase in chances of being hired by 0.5
+
+skill level has no interaction with other independent variables.
+
+what is the ideal skill level to be hired? 
+ 
+ A minimum skill score of 40 is required to be hired and the mean skill score of the hired applicants is 65
+
+recommended skill score to be hired is 65. 
+
+
+Personality Score: 
+
+an increase in personality score by 1 increases the chances of being hired by 0.4
+personality score has no interaction with the other independent variables (VIF lower than 0.5)
+
+
+The minimum Personality Score of the people hired was 30 while the mean was above 60.
+recommended Personality Score 65-70
+
+
+Years of experience: 
+
+An increase in years of experience increases the chances of being hired by 0.32
+
+Experience years has no interaction with other independent variables. 
+
+highest percentage is applicants with 9years of experience
+lowest percentage is applicants with 1 year of experience
+median experience years is 9 years of experience
+
+
+0-5 years : 25.9%
+5-10 years: 39.5%
+10-15 years: 34.6 
+
+Recommended years of experience 5-10 years
+
+
+
+
+
+
+Looking for any multicollinearity? 
+
+The VIF values indicates that there is no multicollinearity between the independent variables.
